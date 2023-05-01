@@ -1,0 +1,178 @@
+:root {
+  --color-iris: #4d5ae5;
+  --color-ocean: #404bbf;
+  --color-navy-blue: #2e2f42;
+  --color-green: #31d0aa;
+  --color-slate: #434455;
+  --color-light-slate: #8e8f99;
+  --color-cornflower: #e7e9fc;
+  --color-cloud: #f4f4fd;
+  --color-white: #ffffff;
+  --color-dairy: #fcfcfc;
+}
+
+.link {
+  color: var(--color-slate);
+  text-decoration: none;
+}
+/* body */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  background-color: var(--color-white);
+  color: var(--color-slate);
+}
+/* list ul */
+.list {
+  font-weight: 500;
+  list-style: none;
+  color: var(--color-slate);
+}
+/* logo */
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-iris);
+  text-decoration: none;
+}
+.link-name {
+  color: var(--color-navy-blue);
+}
+
+.links:hover,
+.links:focus {
+  color: var(--color-ocean);
+}
+.link:hover,
+.link:focus {
+  color: var(--color-ocean);
+}
+
+/* button hover focus */
+.oder-button:hover,
+.oder-button:focus {
+  background-color: var(--color-ocean);
+}
+.filter-button:hover,
+.filter-button:focus {
+  background-color: var(--color-ocean);
+  color: var(--color-white);
+}
+/* card team background */
+.team-style {
+  background-color: var(--color-cloud);
+}
+/* footer  background*/
+.footer-style {
+  background-color: var(--color-navy-blue);
+}
+/* link footer */
+.link-name-footer {
+  color: var(--color-cloud);
+}
+/* footer text  */
+.footer-text {
+  font-family: inherit;
+  color: var(--color-white);
+}
+/* team card  */
+.team-card {
+  background-color: var(--color-white);
+}
+.tel-mail {
+  font-style: normal;
+}
+
+/* title-h1 */
+.main-title {
+  font-weight: 700;
+  font-size: 56px;
+  text-align: center;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: var(--color-white);
+}
+.hero {
+  background-color: var(--color-navy-blue);
+}
+/* title-h2 */
+.text-style-header-b {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--color-navy-blue);
+}
+/* title-h3 */
+.text-style-header-a {
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  color: var(--color-navy-blue);
+}
+/* style for <P> */
+.text-style-body-medium {
+  font-weight: 400;
+  color: var(--color-slate);
+}
+/* oder button style */
+.oder-button {
+  font-style: inherit;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: inherit;
+  line-height: inherit;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+  color: var(--color-white);
+  background-color: var(--color-iris);
+  cursor: pointer;
+}
+/* filter button style */
+.filter-button {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 500;
+  font-style: inherit;
+  line-height: inherit;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+  color: var(--color-iris);
+  background-color: var(--color-cloud);
+  cursor: pointer;
+}
+/* link style */
+.links {
+  font-family: inherit;
+  font-style: inherit;
+  font-weight: 500;
+  font-size: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+
+  color: var(--color-navy-blue);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset 100%;
+  clip: rect 0 0 0 0;
+  overflow: hidden;
+}
