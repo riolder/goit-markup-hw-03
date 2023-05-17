@@ -34,6 +34,9 @@ button {
 
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>header>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 /* placing */
+.head {
+  border-bottom: 1px var(--color-cornflower);
+}
 header {
   padding-top: 0px;
   padding-bottom: 0px;
@@ -42,7 +45,6 @@ header {
   height: 72px;
   display: flex;
   align-items: center;
-  border-bottom: 1px solid var(--color-cornflower);
 }
 .logo {
   margin-right: 76px;
@@ -57,12 +59,13 @@ header {
   display: flex;
   align-items: center;
   gap: 40px;
-  padding: 24px 0;
 }
 .header-link:not :last-child {
   margin-right: 40px;
 }
-
+.links {
+  padding: 24px 0;
+}
 .container {
   width: 1158px;
   padding: 0 15px;
@@ -79,6 +82,9 @@ header {
 .future-list {
   display: flex;
   gap: 24px;
+  flex-basis: calc((100% - 3 * 24px) / 4);
+}
+.specifics-strategy {
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .specifics {
@@ -105,6 +111,9 @@ header {
 }
 .occupation {
   padding-bottom: 120px;
+}
+.occupation-list {
+  width: calc((100% - 48px) / 3);
 }
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>team>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 .team-card-name {
