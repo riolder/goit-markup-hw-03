@@ -191,9 +191,7 @@ body {
 }
 /* list ul */
 .list {
-  font-weight: 500;
   list-style: none;
-  color: var(--color-slate);
 }
 /* logo */
 .logo {
